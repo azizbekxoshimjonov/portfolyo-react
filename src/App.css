@@ -1,38 +1,256 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul,ol{
+  list-style-type: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 787px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+header{
+  /* background-color: #0C151D; */
+  padding-top: 178px;
+  padding-bottom: 68px;
+ 
+}
+.hero{
+  width: 300px;
+  height: 300px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+.pixtures{
+  width: 300px;
+  border-radius: 100%;
+}
+nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.info{
+  color: white;
+  margin-left: 40px;
+
+}
+.nav__list{
+ display: flex;
+}
+.work{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 48px;
+  color:#A3ABB2;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+.work1{
+ width: 194px;
+}
+p{
+  display: block;
+}
+.work2{
+  width: 125px;
+}
+.work3{
+  width: 119px;
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+.dow__btn{
+  width: 290px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background:rgba(255, 224, 113, 1);
+  margin-top: 67px;
+  color: #3D3D3D;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  border: 0px solid #FFE071;
+}
+.now__btn{
+  width: 290px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 0px solid #3E64AA;
+  background: #171F26;
+  color: #A3ABB2;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 67px;
+  margin-left: 38px;
+}
+.portfol{
+  width: 756px;
+  height: 116px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #171F26;
+  margin-top: 83px;
+  display: flex;
+  align-items: center;
+  
+}
+.port__btn{
+  width: 349.595px;
+  height: 80px;
+  border-radius: 10px;
+  border: 0px solid #3E64AA;
+  background: #0C151D;
+  color: #A3ABB2;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 23px;
+
+}
+.port__des{
+  width: 382.37px;
+  color: #A3ABB2;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.project{
+  /* background-color: #0C151D; */
+  padding: 73px 0;
+}
+.project__list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 765px;
+
+}
+.project__item{
+ margin-top: 48px;
+ width: 362px;
+ overflow: hidden;
+ img{
+  width: 100%;
+ }
+}  
+.foot__des{
+  text-align: center;
+  color: rgba(163, 171, 178, 1);
+  margin-top: 80px;
+}
+.dark{
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.light{
+  background-color: gray;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.head__log{
+  margin-left: 350px;
+  margin-bottom: 100px;
+  border: none;
+}
+.head__loglight{
+  background-color: gray;
+}
+.head__logdark{
+  background-color: black;
+}
+.title__light{
+  color: black;
+}
+.title__dark{
+  color: white;
+}
+.wor__light{
+  color: rgba(87, 87, 87, 1);
+}
+.wor__dark{
+  color: rgba(163, 171, 178, 1);
+  width: 194px;
+}
+.dow__light{
+  background-color: rgba(251, 209, 68, 1);
+  color: #3D3D3D;
+}
+.dow__dark{
+  width: 290px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background:rgba(255, 224, 113, 1);
+  margin-top: 67px;
+  color: #3D3D3D;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  border: 0px solid #FFE071;
+}
+.now__light{
+  background-color: rgba(255, 255, 255, 1);
+  color:  rgba(61, 61, 61, 1);
+}
+.now__dark{
+  width: 290px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 0px solid #3E64AA;
+  background: #171F26;
+  color: #A3ABB2;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 67px;
+  margin-left: 38px;
+}
+.portfol__light{
+  background: rgba(255, 255, 255, 1);
+  color:  rgba(25, 25, 27, 1);
+}
+.portfol__dark{
+  width: 756px;
+  height: 116px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #171F26;
+  margin-top: 83px;
+  display: flex;
+  align-items: center;
+}
+.port__deslight{
+  color: rgba(25, 25, 27, 1);
+}
+.port__desdark{
+  width: 382.37px;
+  color: #A3ABB2;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
