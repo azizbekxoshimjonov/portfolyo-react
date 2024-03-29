@@ -254,3 +254,18 @@ p{
   font-weight: 500;
   line-height: normal;
 }
+.log__btn{
+  background-color: gray;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 50px;
+}
+.log__btnlight{
+  background-color: gray;
+  border: none;
+}
+.log__btnblack{
+  background-color: black;
+  border: none;
+}

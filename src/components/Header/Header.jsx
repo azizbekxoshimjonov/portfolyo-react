@@ -9,11 +9,11 @@ function Header({mode,setMode}) {
     <div className={mode == true ? 'light' : 'dark'}>
          <header>
       <div className="container">
-        <div className={mode == true ? 'head__log head__loglight': 'head__log head__logdark'}>
-            <button onClick={()=> setMode(!mode)}>
+      
+            <button className={mode == true ? 'log__btn log__btnlight' : 'log__btn log__btnblack'}  onClick={()=> setMode(!mode)}>
             <img width='100' src={mode == true ? oy : quyosh} alt="" />
             </button>
-        </div>
+     
       <nav className="nav">
        <div className="hero">
         <img src={myfriend} className="pixtures" alt=""/>
